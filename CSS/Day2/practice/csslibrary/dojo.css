@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f3f3f3;
+}
+
+.top {
+  background-color: #5151e8;
+}
+
+.nav {
+  width: 1080px;
+  margin: 0 auto;
+  color: #ffffff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-title {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.nav-title:hover{
+  font-size: x-large;
+  color: burlywood;
+  transition: 0.9s;
+}
+
+.btn  {
+  height: 35px;
+  width: 100px;
+  background-color: #17a2b8;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  box-shadow: 5px 5px #000000;
+  cursor: pointer;
+
+}
+.btn:hover{
+  background-color:#002ead;
+  transition: 0.7s;
+}
+
+.container {
+  width: 1080px;
+  display: flex;
+  flex-direction: column    ;
+
+}
+
+.row {
+    display: flex;
+
+}
+
+.col,
+.col-2 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.col-2 {
+    display: flex;
+
+}
+
+.user-card,
+.card {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #999;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #5151e8;
+  height: 130px;
+  margin-bottom: 70px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+  margin: 30px 0px;
+  text-align: justify;
+}
+
+.avatar-m {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 190px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.icon-s {
+  height: 20px;
+}
+
+a {
+  color: #3a81e6;
+}
+a:hover{
+  color:#1cc724;
+  transition: 0.7s;
+  font-size: 19px;
+}
+
+
+.header {
+  background-color: #333333;
+  padding: 20px;
+  color: #ffffff;
+  display: flex;
+
+  font-size: 24px;
+  align-items: center;
+}
+
+.dates {
+  font-size: 20px;
+  color: #777;
+}
