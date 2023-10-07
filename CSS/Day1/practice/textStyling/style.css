@@ -1,0 +1,33 @@
+.mycloud{
+    background-color: black;
+  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: white;
+}
+span{
+    color: aqua;
+}
+.completed{
+    background-color: blueviolet;
+}
+h2{
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+
+}
+.contact {
+    background-color: cornflowerblue;
+}
+h3{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    text-decoration: underline;
+    padding: 20px;
+    font-style: oblique;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+margin: auto;
+    justify-content: center;
+
+}
+.card{
+    box-sizing: border-box;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    width: 600px;
+    height: 300px;
+
+}
+#color{
+    background-image: url('./dev.jpeg');
+background-repeat: no-repeat;
+background-image: cover;
+    height: 120px;
+}
+h1{
+    margin-top: -30px;
+}
+#user{
+    width: 100px;
+    height: 100px;
+    margin-top: -100px;
+    padding: 20px 20px;
+}
+.contain{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#loc{
+    width: 15px;
+    height: 15px;
+}
+#setting{
+    width: 15px;
+    height: 14px;
+}

@@ -1,0 +1,43 @@
+
+
+
+.container{
+    margin-top: 150px;
+text-align: center;
+box-sizing: border-box;
+
+}
+.btn1{
+    
+    color: aqua;
+    border: 1px solid aqua;
+    margin: 5px;
+    background-color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+font-weight: bold;
+font-size: larger;
+}
+.btn2{
+
+    color: white;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 1px solid aqua;
+    font-size: 30px;
+    margin: 50px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+   
+}
+.btn3{
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 4px 5px black;
+    padding:10px 25px;
+    border: 2px solid black;
+    cursor: pointer;
+}

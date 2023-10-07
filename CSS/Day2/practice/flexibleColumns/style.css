@@ -1,0 +1,29 @@
+.row{
+    display: flex;
+}
+
+.col{
+    background-color: yellow;
+    width: 30px;
+    height: 90px;
+    margin: 20px;
+    flex: auto;
+}
+.col-3{
+    background-color: yellow;
+    width: 30px;
+    height: 90px;
+    flex: 3;
+    margin: 20px;
+
+
+}
+.col-2{
+    background-color: yellow;
+    width: 30px;
+    height: 90px;
+    flex: 2;
+    margin: 20px;
+
+
+}
